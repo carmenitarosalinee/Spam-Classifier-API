@@ -14,9 +14,9 @@ The API is live on **Railway**:
 - **Prediction Endpoint** → `POST /predict`  
 
 Example request (POST):  
-curl -X POST https://spam-classifier-api-production.up.railway.app/predict \
+`curl -X POST https://spam-classifier-api-production.up.railway.app/predict \
     -H "Content-Type: application/json" \
-    -d '{"text": "Congratulations! You won a free ticket."}'
+    -d '{"text": "Congratulations! You won a free ticket."}'`
 
 
 Example response:  
