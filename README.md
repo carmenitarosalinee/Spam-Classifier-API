@@ -117,4 +117,4 @@ This project is ready for deployment on **Railway** or any PaaS that supports **
 ---
 
 ## 🙌 Author
-Built with ❤️ by **Carmenita**  
+**Carmenita**  
