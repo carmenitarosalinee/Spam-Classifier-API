@@ -20,10 +20,10 @@ curl -X POST https://spam-classifier-api-production.up.railway.app/predict \
 
 
 Example response:  
-{
+`{
   "text": "Congratulations! You won a free ticket.",
   "prediction": "spam"
-}
+}`
 
 
 ## 📂 Project Structure
