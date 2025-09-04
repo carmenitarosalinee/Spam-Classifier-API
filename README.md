@@ -5,6 +5,27 @@ The model is built with **Scikit-learn**, serialized with **joblib**, and deploy
 
 ---
 
+## 🚀 Live Demo
+
+The API is live on **Railway**:  
+👉 [Spam Classifier API](https://spam-classifier-api-production.up.railway.app)  
+
+- **Health Check** → `GET /`  
+- **Prediction Endpoint** → `POST /predict`  
+
+Example request (POST):  
+curl -X POST https://spam-classifier-api-production.up.railway.app/predict \
+    -H "Content-Type: application/json" \
+    -d '{"text": "Congratulations! You won a free ticket."}'
+
+
+Example response:  
+{
+  "text": "Congratulations! You won a free ticket.",
+  "prediction": "spam"
+}
+
+
 ## 📂 Project Structure
 
 Spam-Classifier-API/  
