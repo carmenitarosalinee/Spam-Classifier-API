@@ -7,6 +7,7 @@ The model is built with **Scikit-learn**, serialized with **joblib**, and deploy
 
 ## 🚀 Live Demo
 
+### API (Backend)
 The API is live on **Railway**:  
 👉 [Spam Classifier API](https://spam-classifier-api-production.up.railway.app)  
 
@@ -25,6 +26,11 @@ Example response:
   "prediction": "spam"
 }`
 
+### Client (Frontend)
+The UI is live on **Netlify**:  
+👉 [Spam Classifier Client](https://reliable-crumble-f06198.netlify.app)  
+
+This simple React app provides a user-friendly interface to test the API by entering text messages and checking whether they are **spam** or **not spam**.
 
 ## 📂 Project Structure
 
